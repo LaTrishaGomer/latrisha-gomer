@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+
+/* * {
+  font-family: Outfit;
+} */
+
+
+:root {
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darktheme: #11001F;
+  --font-outfit: outfit, sans-serif;
+  --font-ovo: ovo, serif;
+}
+
+@layer utilities {
+  .hover\:bg-lightHover:hover {
+    background-color: var(--color-lightHover);
+  }
+  .hover\:bg-darkHover:hover {
+    background-color: var(--color-darkHover);
+  }
+  .bg-darktheme {
+    background-color: var(--color-darktheme);
+  }
+  .text-darktheme {
+    color: var(--color-darktheme);
+  }
+  .shadow-black {
+    box-shadow: 4px 4px 0 #000;
+  }
+  .shadow-white {
+    box-shadow: 4px 4px 0 #fff;
+  }
+  .hover\:shadow-black:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+  .hover\:shadow-white:hover {
+    box-shadow: 4px 4px 0 #fff;
+  }
+  .grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .bg-footer {
+    background-image: url('/footer-bg-color.png');
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+}
+
+ p {
+  font-size: 1.125rem; 
+   line-height: 1.75rem;
+}  
