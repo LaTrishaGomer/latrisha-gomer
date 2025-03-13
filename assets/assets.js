@@ -102,7 +102,7 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Tailored website solutions built with JavaScript and React to match your brand and business goals.', link: '' },
+    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Tailored websites built with JavaScript and React to match your brand and business goals.', link: '' },
     { icon: assets.mobile_icon, title: 'E-commerce Site Development', description: 'Seamless online stores with secure checkout, mobile-friendly design, and conversion-focused features.', link: '' },
     { icon: assets.ui_icon, title: 'Brand Identity & Web Design', description: 'A cohesive brand experience with custom logos, typography, color palettes, and web design that reflects your unique style.', link: '' },
     { icon: assets.graphics_icon, title: 'Website Maintenance & Optimization', description: 'Keep your site running smoothly with updates, performance enhancements, and ongoing support.', link: '' },

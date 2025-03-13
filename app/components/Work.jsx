@@ -8,7 +8,7 @@ const Work = () => {
       <h4 className='text-center mb-2 text-lg font-ovo'>My portfolio</h4>
       <h2 className='text-center text-5xl font-ovo'>My latest work</h2>
 
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development.</p>
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>Here are some of my latest projects! I’ve designed and built these websites to be easy to use, visually appealing, and tailored to each client’s needs.</p>
     
     <div className='grid grid-cols-auto my-10 gap-5'>
         {workData.map ((project, index) =>(
