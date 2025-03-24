@@ -101,7 +101,7 @@ export const workData = [
     },
     {
         title: 'Serene Template',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed with simplicity and clarity in mind. Currently in development.',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed in Figma with simplicity in mind. Currently in development.',
         bgImage: '/work-7.png',
     },
 ]
