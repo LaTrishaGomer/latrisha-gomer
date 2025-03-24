@@ -80,29 +80,34 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Figma Website Concept',
-        description: 'UI/UX Design',
-        bgImage: '/work-1.png',
+        title: 'Mane Memo',
+        description: 'Mane Memo is a digital hair journal built with MongoDB, Express, and Node.js. It helps users track their haircare routines, products, and progress in one convenient place.',
+        bgImage: '/work-5.png',
+        github: 'https://github.com/LaTrishaGomer/hair-log-app-project-2',
+        live: 'https://www.mane-memo.com/'
     },
     {
-        title: 'Brand Strategy',
-        description: 'Design & Development',
-        bgImage: '/work-2.png',
+        title: 'Mindful Web Studio',
+        description: 'Mindful Web Studio is my design and development business. I create custom websites for small business owners using WordPress and Squarespace. The studio site is currently under construction, and I’m not accepting new clients at this time.',
+        bgImage: '/work-8.png',
+        live: 'https://www.mindfulwebstudio.com/'
     },
     {
-        title: 'Squarespace Customization',
-        description: 'Website Strategy',
-        bgImage: '/work-3.png',
+        title: 'WayBackQuiz',
+        description: 'WayBackQuiz is a nostalgic trivia game that tests your pop culture knowledge from the 80s, 90s, and Y2K eras. Developed with HTML, CSS, and JavaScript.' ,
+        bgImage: '/work-6.png',
+        github: 'https://github.com/LaTrishaGomer/quiz-game-project-1',
+        live: 'https://latrishagomer.github.io/quiz-game-project-1/'
     },
     {
-        title: 'WordPress Customization',
-        description: 'Custom Development',
-        bgImage: '/work-4.png',
+        title: 'Serene Template',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed with simplicity and clarity in mind. Currently in development.',
+        bgImage: '/work-7.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Tailored websites built with JavaScript and React to match your brand and business goals.', link: '' },
+    { icon: assets.web_icon, title: 'Custom Website Development', description: 'Tailored websites built with JavaScript and React to match your brand and business goals. I also work with WordPress & Squarespace', link: '' },
     { icon: assets.mobile_icon, title: 'E-commerce Site Development', description: 'Seamless online stores with secure checkout, mobile-friendly design, and conversion-focused features.', link: '' },
     { icon: assets.ui_icon, title: 'Brand Identity & Web Design', description: 'A cohesive brand experience with custom logos, typography, color palettes, and web design that reflects your unique style.', link: '' },
     { icon: assets.graphics_icon, title: 'Website Maintenance & Optimization', description: 'Keep your site running smoothly with updates, performance enhancements, and ongoing support.', link: '' },
