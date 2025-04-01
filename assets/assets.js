@@ -92,13 +92,13 @@ export const workData = [
         bgImage: '/work-8.png',
         live: 'https://www.mindfulwebstudio.com/'
     },
-    {
-        title: 'WayBackQuiz',
-        description: 'WayBackQuiz is a nostalgic trivia game that tests your pop culture knowledge from the 80s, 90s, and Y2K eras. Developed with HTML, CSS, and JavaScript.' ,
-        bgImage: '/work-6.png',
-        github: 'https://github.com/LaTrishaGomer/quiz-game-project-1',
-        live: 'https://latrishagomer.github.io/quiz-game-project-1/'
-    },
+    // {
+    //     title: 'WayBackQuiz',
+    //     description: 'WayBackQuiz is a nostalgic trivia game that tests your pop culture knowledge from the 80s, 90s, and Y2K eras. Developed with HTML, CSS, and JavaScript.' ,
+    //     bgImage: '/work-6.png',
+    //     github: 'https://github.com/LaTrishaGomer/quiz-game-project-1',
+    //     live: 'https://latrishagomer.github.io/quiz-game-project-1/'
+    // },
     {
         title: 'Serene Template',
         description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed in Figma with simplicity in mind. Currently in development.',
