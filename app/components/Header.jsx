@@ -13,7 +13,7 @@ const Header = () => {
             Hi! I'm La'Trisha Gomer <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
     <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>frontend web developer based in the San Francisco Bay Area.</h1>
     <p className='mx-w-2xl mx-auto font-ovo'>
-    I design and develop beautiful websites and apps that help small businesses grow. Whether you're using Squarespace, Elementor for WordPress, or need a custom build with JavaScript and React, I can bring your vision to life.
+    I design and develop beautiful websites and apps that help small businesses grow. Whether you're using Squarespace, WordPress, or need a custom build with JavaScript and React, I can bring your vision to life.
     </p>
     <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact"
