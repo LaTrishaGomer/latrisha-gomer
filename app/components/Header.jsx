@@ -11,7 +11,7 @@ const Header = () => {
       </div>
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
             Hi! I'm La'Trisha Gomer <Image src={assets.hand_icon} alt='' className='w-6'/></h3>
-    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>frontend web developer based in the San Francisco Bay Area.</h1>
+    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>Hello world, I'm La'Trisha</h1>
     <p className='mx-w-2xl mx-auto font-ovo'>
     I design and develop beautiful websites and apps that help small businesses grow. Whether you're using Squarespace, WordPress, or need a custom build with JavaScript and React, I can bring your vision to life.
     </p>
