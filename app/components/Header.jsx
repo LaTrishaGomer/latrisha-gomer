@@ -11,9 +11,9 @@ const Header = () => {
       </div>
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
             Hi, I'm La'Trisha!<Image src={assets.hand_icon} alt='' className='w-6'/></h3>
-    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>Welcome to My Corner of the Internet</h1>
+    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>I Build Things with Code. Then I Write About It.</h1>
     <p className='mx-w-2xl mx-auto font-ovo'>
-    I'm a Kansas City-based software engineer building with .Net and C#, documenting the journey as I go.
+    I'm a Kansas City-based software engineer. This is where I share what I learn. The wins, the bugs, and everything in between. If you're on a similar path, you're in the right place. Welcome to My Corner of the Internet.
     </p>
     <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact"
