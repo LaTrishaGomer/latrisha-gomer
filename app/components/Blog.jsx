@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { Github, ExternalLink } from 'lucide-react'
 
-const Work = () => {
+const Blog = () => {
   return (
      <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='mb-2 text-lg font-ovo max-w-6xl mx-auto'>The blog</h4>
