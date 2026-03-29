@@ -59,7 +59,7 @@ const Work = () => {
             </div>
           </div>
         ))}
-           /*<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+           <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#work" 
         className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
             Next <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' /></a>
