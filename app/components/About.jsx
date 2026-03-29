@@ -2,24 +2,24 @@ import { assets, infoList, toolsData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-const About = () => {
+/* const About = () => {
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg font-ovo'>Introduction</h4>
       <h2 className='text-center text-5xl font-ovo'>About me</h2>
 
-      {/* Center content wrapper */}
+      {/* Center content wrapper 
       <div className='flex w-full max-w-5xl mx-auto flex-col lg:flex-row items-center gap-20 my-20 justify-center'>
 
-        {/* Image section */}
+        {/* Image section 
         <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
           <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
         </div>
 
-        {/* Text & Skills section */}
+        {/* Text & Skills section 
         <div className='flex-1 text-center lg:text-left'>
 
-          {/* About Paragraph */}
+          {/* About Paragraph 
           <p className='mb-10 max-w-2xl font-ovo mx-auto lg:mx-0'>
           I'm a developer with a sharp eye for design and a knack for storytelling. My background in journalism taught me how to organize information so it's easy to understand and navigate.
         <br/> <br/>
@@ -27,7 +27,7 @@ const About = () => {
           I specialize in building beautiful, user-friendly websites that help small businesses and entrepreneurs stand out online. Whether it’s designing a seamless user experience, developing custom features, or fine-tuning the details that make a website shine, I’m here to build something that’s both stunning and strategic.
           </p>
 
-          {/* Skills Section */}
+          {/* Skills Section 
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto lg:mx-0'>
             {infoList.map(({icon, title, description}, index) => (
               <li 
@@ -52,7 +52,7 @@ const About = () => {
                 <Image src={tool} alt='tool' className='w-5 sm:w-7' />
               </li>
             ))}
-          </ul> */}
+          </ul> *
 
         </div>
       </div>
@@ -61,3 +61,4 @@ const About = () => {
 }
 
 export default About
+*/
