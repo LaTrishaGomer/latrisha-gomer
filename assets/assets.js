@@ -81,62 +81,56 @@ export const assets = {
 export const workData = [
     {
         title: 'What Actually Happens When Your Code Runs?',
-        description: 'You type it, you hit run — but what happens in between? Let&apos;s pull back the curtain.',
+        description: "You type code, you hit run, but what happens in between? Let's pull back the curtain.",
         bgImage: '/work-5.png',
         github: '#',
         live: '#'
     },
     {
         title: 'The Call Stack Explained: What I Wish I Knew on Day One',
-        description: 'Mindful Web Studio is my design and development business. I create custom websites.',
-        bgImage: '/work-8.png',
-        live: 'https://www.mindfulwebstudio.com/'
+        description: "It's one of the first things senior engineers reference and one of the last things anyone actually explains.",
+        bgImage: '#',
+        live: '#'
     },
-    // {
-    //     title: 'WayBackQuiz',
-    //     description: 'WayBackQuiz is a nostalgic trivia game that tests your pop culture knowledge from the 80s, 90s, and Y2K eras. Developed with HTML, CSS, and JavaScript.' ,
-    //     bgImage: '/work-6.png',
-    //     github: 'https://github.com/LaTrishaGomer/quiz-game-project-1',
-    //     live: 'https://latrishagomer.github.io/quiz-game-project-1/'
-    // },
+  
     {
         title: 'Value Types vs Reference Types: Why It Actually Matters',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "It sounds like a trivia question until it breaks your code. Here's what the difference actually means in practice.",
         bgImage: '/work-7.png',
     },
         {
         title: 'IL and JIT Compilation: The Step Between Your Code and the Machine',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "Your C# code doesn't run directly. It takes a detour first. Here's what that detour looks like.",
         bgImage: '/work-7.png',
     },
         {
         title: 'Polymorphism: The Fancy Word for Something You Already Do',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "It's one of those terms that sounds intimidating until you realize you've been doing it all along.",
         bgImage: '/work-7.png',
     },
         {
         title: 'Interfaces vs Abstract Classes: The Difference Nobody Explained Clearly',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "Two concepts that look similar on the surface but serve very different purposes. Let's break it down simply.",
         bgImage: '/work-7.png',
     },
         {
         title: 'List vs Array: When Does It Actually Matter?',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: 'Most of the time either works, but knowing when it matters could save you a headache down the road.',
         bgImage: '/work-7.png',
     },
         {
         title: 'When Should You Throw an Exception? (And When You Should Not)',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "Throwing exceptions everywhere isn't the answer. Neither is swallowing errors and hoping for the best. Here's how I think about it.",
         bgImage: '/work-7.png',
     },
         {
         title: 'Event Listeners: How Your Code Knows When You Click Something',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "That button didn't just know you clicked it. Here's the quiet mechanism running behind the scenes.",
         bgImage: '/work-7.png',
     },
          {
         title: 'Dev, Staging, and Prod: Understanding Your Environments',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        description: "Early on I had no idea why there were three versions of the same app. Now I can't imagine working without them.",
         bgImage: '/work-7.png',
     },
 ]
