@@ -81,10 +81,10 @@ export const assets = {
 export const workData = [
     {
         title: 'What Actually Happens When Your Code Runs?',
-        description: 'Mane Memo is a digital hair journal built with MongoDB, Express, and Node.js.',
+        description: 'You type it, you hit run — but what happens in between? Let&apos;s pull back the curtain.',
         bgImage: '/work-5.png',
-        github: 'https://github.com/LaTrishaGomer/hair-log-app-project-2',
-        live: 'https://www.mane-memo.com/'
+        github: '#',
+        live: '#'
     },
     {
         title: 'The Call Stack Explained: What I Wish I Knew on Day One',
