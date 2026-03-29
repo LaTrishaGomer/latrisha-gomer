@@ -5,7 +5,7 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const Blog = () => {
   return (
-     <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
+     <div id='blog' className='pt-24 w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='mb-2 text-lg font-ovo max-w-6xl mx-auto'>The blog</h4>
       {/*<h2 className='text-center text-5xl font-ovo'>My latest work</h2>
 
