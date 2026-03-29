@@ -10,7 +10,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - LaTrisha Gomer",
+  title: "LaTrisha Gomer - Software Engineer",
   description: "",
   icons: {
   icon: "/favicon-32x32.png"
