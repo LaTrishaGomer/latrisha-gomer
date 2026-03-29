@@ -15,7 +15,9 @@ const Header = () => {
     <p className='mx-w-2xl mx-auto font-ovo'>
     I'm a Kansas City-based software engineer. This is where I share what I learn. The wins, the bugs, and everything in between. If you're on a similar path, you're in the right place. Welcome to my corner of the internet.
     </p>
-    <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+
+
+    {/*<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#contact"
         className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
         >contact me <Image src={assets.right_arrow_white} alt="" className='w-4' /></a>
@@ -23,7 +25,15 @@ const Header = () => {
         <a href="#work" 
         className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
             see my work <Image src={assets.down_icon} alt="" className='w-4' /></a>
+    </div>*/}
+
+    <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+        <a href="#work" 
+        className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
+            start here </a>
     </div>
+
+
     </div>
   )
 }
