@@ -25,13 +25,13 @@ const Header = () => {
         <a href="#work" 
         className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
             see my work <Image src={assets.down_icon} alt="" className='w-4' /></a>
-    </div>*/}
+    </div>
 
-    <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+    /*<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="#work" 
         className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
             start here </a>
-    </div>
+    </div>*/}
 
 
     </div>
