@@ -13,7 +13,7 @@ const Header = () => {
             Hi, I'm La'Trisha!<Image src={assets.hand_icon} alt='' className='w-6'/></h3>
     <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>I Build Things with Code. Then I Write About It.</h1>
     <p className='mx-w-2xl mx-auto font-ovo'>
-    I'm a Kansas City-based software engineer. This is where I share what I learn. The wins, the bugs, and everything in between. If you're on a similar path, you're in the right place. Welcome to my corner of the internet.
+    I'm a Kansas City-based software engineer, originally from the San Francisco Bay Area. This is where I share what I learn. The wins, the bugs, and everything in between.
     </p>
 
 
