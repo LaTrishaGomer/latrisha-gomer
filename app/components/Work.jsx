@@ -5,22 +5,22 @@ import { Github, ExternalLink } from 'lucide-react'
 
 const Work = () => {
   return (
-    <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
-      <h4 className='text-center mb-2 text-lg font-ovo'>My portfolio</h4>
+     <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
+      {/*<h4 className='text-center mb-2 text-lg font-ovo'>My portfolio</h4>
       <h2 className='text-center text-5xl font-ovo'>My latest work</h2>
 
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
         Here are some of my latest projects. I designed and developed these apps and websites using tools like Figma, Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript.
-      </p>
+      </p> */}
 
       <div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>
         {workData.map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
             {/* Project Image */}
-            <div
+            {/*<div
               className='w-full aspect-[1278/717] bg-no-repeat bg-cover bg-center rounded-lg'
               style={{ backgroundImage: `url(${project.bgImage})` }}
-            ></div>
+            ></div> */}
 
             {/* Project Info */}
             <div className='px-2'>
