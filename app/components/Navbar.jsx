@@ -33,7 +33,7 @@ const Navbar = () => {
     </div>
 
       <nav className={`w-full fixed px-5 lg:px-8 x1:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
-        <a href="#top">
+        <a href="/">
             <Image src={assets.logo}  alt="" className='w-28 cursor-pointer mr-14' />
         </a>
 
@@ -67,7 +67,7 @@ const Navbar = () => {
                 <Image src={assets.close_black} alt='' className='w-5 cursor pointer'/>
             </div>
 
-            <li><a className='font-Ovo' onClick={closeMenu} href="#top">Home</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="/">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="/about">About</a></li>
             {/*<li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>*/}
             <li><a className='font-Ovo' onClick={closeMenu} href="/blog">Blog</a></li>
