@@ -134,6 +134,11 @@ export const workData = [
         description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
         bgImage: '/work-7.png',
     },
+         {
+        title: 'Dev, Staging, and Prod: Understanding Your Environments',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
 ]
 
 export const serviceData = [
