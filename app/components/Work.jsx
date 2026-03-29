@@ -33,10 +33,10 @@ const Work = () => {
                   href={project.github}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-lightHover transition'
+                  className='inline-flex gap-2 text-sm font-ovo text-gray-800 border hover:bg-lightHover transition'
                 >
                   <Github size={16} />
-                  GitHub
+                  La'Trisha Gomer
                 </a>
 
                 <a
@@ -46,7 +46,7 @@ const Work = () => {
                   className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
                 >
                   <ExternalLink size={16} />
-                  Live Site
+                  Read More
                 </a>
               </div>
             </div>
