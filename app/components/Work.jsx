@@ -13,6 +13,8 @@ const Work = () => {
         Here are some of my latest projects. I designed and developed these apps and websites using tools like Figma, Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript.
       </p> */}
 
+      <h2 className='text-5xl font-ovo'>My latest work</h2>
+
       <div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>
         {workData.map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
@@ -34,6 +36,7 @@ const Work = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   className='inline-flex gap-2 text-sm font-ovo hover:bg-lightHover transition'
+                  //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
                 >
                   {/*<Github size={16} /> */}
                   La'Trisha Gomer
@@ -43,9 +46,12 @@ const Work = () => {
                   href={project.live}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
+                  className='inline-flex gap-2 text-sm font-ovo hover:bg-gray-100 transition'
+                  
+
+                //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
                 >
-                  <ExternalLink size={16} />
+                  {/*<ExternalLink size={16} /> */}
                   Read More
                 </a>
               </div>
