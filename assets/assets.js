@@ -81,14 +81,14 @@ export const assets = {
 export const workData = [
     {
         title: 'What Actually Happens When Your Code Runs?',
-        description: 'Mane Memo is a digital hair journal built with MongoDB, Express, and Node.js. It helps users track their haircare routines, products, and progress in one convenient place.',
+        description: 'Mane Memo is a digital hair journal built with MongoDB, Express, and Node.js.',
         bgImage: '/work-5.png',
         github: 'https://github.com/LaTrishaGomer/hair-log-app-project-2',
         live: 'https://www.mane-memo.com/'
     },
     {
         title: 'The Call Stack Explained: What I Wish I Knew on Day One',
-        description: 'Mindful Web Studio is my design and development business. I create custom websites for small business owners using WordPress and Squarespace. The studio site is currently under construction, and I’m not accepting new clients at this time.',
+        description: 'Mindful Web Studio is my design and development business. I create custom websites.',
         bgImage: '/work-8.png',
         live: 'https://www.mindfulwebstudio.com/'
     },
@@ -101,7 +101,7 @@ export const workData = [
     // },
     {
         title: 'Value Types vs Reference Types: Why It Actually Matters',
-        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed in Figma with simplicity in mind. Currently in development.',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
         bgImage: '/work-7.png',
     },
 ]
