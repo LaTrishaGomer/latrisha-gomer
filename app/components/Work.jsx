@@ -33,9 +33,9 @@ const Work = () => {
                   href={project.github}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='inline-flex gap-2 text-sm font-ovo text-gray-800 border hover:bg-lightHover transition'
+                  className='inline-flex gap-2 text-sm font-ovo hover:bg-lightHover transition'
                 >
-                  <Github size={16} />
+                  {/*<Github size={16} /> */}
                   La'Trisha Gomer
                 </a>
 
