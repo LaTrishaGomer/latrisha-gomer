@@ -104,6 +104,36 @@ export const workData = [
         description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
         bgImage: '/work-7.png',
     },
+        {
+        title: 'IL and JIT Compilation: The Step Between Your Code and the Machine',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
+        {
+        title: 'Polymorphism: The Fancy Word for Something You Already Do',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
+        {
+        title: 'Interfaces vs Abstract Classes: The Difference Nobody Explained Clearly',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
+        {
+        title: 'List vs Array: When Does It Actually Matter?',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
+        {
+        title: 'When Should You Throw an Exception? (And When You Should Not)',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
+        {
+        title: 'Event Listeners: How Your Code Knows When You Click Something',
+        description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness.',
+        bgImage: '/work-7.png',
+    },
 ]
 
 export const serviceData = [
