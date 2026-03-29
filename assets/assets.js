@@ -80,14 +80,14 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Mane Memo',
+        title: 'What Actually Happens When Your Code Runs?',
         description: 'Mane Memo is a digital hair journal built with MongoDB, Express, and Node.js. It helps users track their haircare routines, products, and progress in one convenient place.',
         bgImage: '/work-5.png',
         github: 'https://github.com/LaTrishaGomer/hair-log-app-project-2',
         live: 'https://www.mane-memo.com/'
     },
     {
-        title: 'Mindful Web Studio',
+        title: 'The Call Stack Explained: What I Wish I Knew on Day One',
         description: 'Mindful Web Studio is my design and development business. I create custom websites for small business owners using WordPress and Squarespace. The studio site is currently under construction, and I’m not accepting new clients at this time.',
         bgImage: '/work-8.png',
         live: 'https://www.mindfulwebstudio.com/'
@@ -100,7 +100,7 @@ export const workData = [
     //     live: 'https://latrishagomer.github.io/quiz-game-project-1/'
     // },
     {
-        title: 'Serene Template',
+        title: 'Value Types vs Reference Types: Why It Actually Matters',
         description: 'Serene is a Squarespace website template tailored for therapists, coaches, and wellness professionals. Designed in Figma with simplicity in mind. Currently in development.',
         bgImage: '/work-7.png',
     },
