@@ -5,7 +5,7 @@ import Contact from './Contact'
 
 const Services = () => {
   return (
-    <div id='services' className='pt-34 w-full px-[12%] py-10 scroll-mt-20'>
+    <div id='services' className='pt-54 w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg font-ovo'>What I offer</h4>
       <h2 className='text-center text-5xl font-ovo'>My services</h2>
 
