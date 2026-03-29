@@ -69,4 +69,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Blog
