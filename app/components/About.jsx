@@ -46,10 +46,13 @@ import React from 'react'
           <div className='w-64 sm:w-80 rounded-3xl mx-auto'>
         <Image src={assets.diva_image} alt='diva' className='w-full rounded-3xl' />
         </div>
-        <br />
+        <p>
+        <h3 className='text-2xl font-semibold mb-1 text-left'>Get in touch</h3>
+        </p>
         <p className='mb-10 font-ovo text-left'>
         If you want to work together, talk code, or just say hi, I'd love to hear from you! <a href="https://www.latrishagomer.com/contact" target="_blank"><strong>Let's talk.</strong></a>
        </p>
+       
 
           {/* Skills Section */}
           {/*<ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto lg:mx-0'>
