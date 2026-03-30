@@ -51,6 +51,7 @@ import React from 'react'
         
         <h3 className='text-2xl font-semibold mb-1 text-left'>Get in touch</h3>
         
+        <br />
         <p className='mb-10 font-ovo text-left'>
         If you want to work together, talk code, or just say hi, I'd love to hear from you! <a href="https://www.latrishagomer.com/contact" target="_blank"><strong>Let's talk.</strong></a>
        </p>
