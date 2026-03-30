@@ -23,6 +23,7 @@ import React from 'react'
         <p> 
         <h3 className='text-2xl font-semibold mb-1 text-left'>I used to write the news. Now I write code.</h3>
         </p>
+        <br />
         <p className='mb-10 font-ovo text-left'> 
         As a TV news writer and producer, I covered Presidential elections, major news stories, and the rise of the tech industry as it was happening. Some of my favorite stories to write were about technology.
         </p>
@@ -38,6 +39,7 @@ import React from 'react'
         <p>
         <h3 className='text-2xl font-semibold mb-1 text-left'>When I'm not coding</h3>
         </p>
+        <br />
         <p className='mb-10 font-ovo text-left'>
         I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name.
         </p>
