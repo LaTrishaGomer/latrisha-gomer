@@ -1,5 +1,6 @@
 import Blog from '../components/Blog'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function BlogPage() {
   return (
@@ -8,6 +9,7 @@ export default function BlogPage() {
      <div className="pt-54"> 
       <Blog />
       </div>
+      <Footer />
     </main>
   )
 }
