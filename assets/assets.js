@@ -36,6 +36,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import down_icon from './down-icon.png';
+import diva_image from './diva_image.png';
 
 export const assets = {
     user_image,
@@ -76,6 +77,7 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     down_icon,
+    diva_image,
 };
 
 export const workData = [

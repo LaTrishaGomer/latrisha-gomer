@@ -20,26 +20,29 @@ import React from 'react'
         <div className='flex-1 text-center max-w-2xl'>
 
           {/* About Paragraph */}
-          <p className='mb-10 font-ovo text-left'>
-        I used to write the news. Now I write code.
-        <br/> 
+        <h3>I used to write the news. Now I write code.</h3>
+        <p className='mb-10 font-ovo text-left'> 
         As a TV news writer and producer, I covered Presidential elections, major news stories, and the rise of the tech industry as it was happening. Some of my favorite stories to write were about technology.
-        <br/>
+        </p>
+        <p className='mb-10 font-ovo text-left'> 
         My curiosity about tech turned into a hobby after work. I taught myself WordPress, HTML, CSS and started building websites for fun. Friends and family started to ask me to build their websites, which led to a few freelancing opportunities, and eventually to my decision to leave my 13 year career in TV news.
-        <br/>
+        </p>
+        <p className='mb-10 font-ovo text-left'>
         At the end of 2024, I was selected for the Adobe Digital Academy, a program to help people upskill and launch a career in tech. They covered my bootcamp tuition for General Assembly's Software Engineering program. After graduating, I kept building, kept learning, and landed a role as a software engineer working with C#, .NET, JavaScript, and Angular across both the frontend and the backend.
-        <br/>
+        </p>
+        <p className='mb-10 font-ovo text-left'>
         This blog is a place for me to share my experience as a career changer. I write about what I'm learning, what I'm building, and the things I wish I knew before I became a software engineer. Not because I have it all figured out, but because the best engineers I know never stop being curious and are always willing to share their experiences.
-        <br/>
-        When I'm not coding
-        <br/>
-        I'm probably planning my next adventure somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Nacho keeps me company. She's my unofficial work from home co-worker and honestly? She runs the whole operation.
-        <br/>
-
-
-
+        </p>
+        <h3>When I'm not coding</h3>
+        <p className='mb-10 font-ovo text-left'>
+        I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name.
+        </p>
+          <div className='w-64 sm:w-80 rounded-3xl'>
+        <Image src={assets.diva_image} alt='user' className='w-full rounded-3xl' />
+        </div>
+        <p className='mb-10 font-ovo text-left'>
         If you want to work together, talk code, or just say hi, I'd love to hear from you. <a href="https://www.latrishagomer.com/contact" target="_blank">Let's talk.</a>
-          </p>
+       </p>
 
           {/* Skills Section */}
           {/*<ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto lg:mx-0'>
