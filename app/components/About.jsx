@@ -31,6 +31,13 @@ import React from 'react'
         <br/>
         This blog is a place for me to share my experience as a career changer. I write about what I'm learning, what I'm building, and the things I wish I knew before I became a software engineer. Not because I have it all figured out, but because the best engineers I know never stop being curious and are always willing to share their experiences.
         <br/>
+        When I'm not coding
+        <br/>
+        I'm probably planning my next adventure somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Nacho keeps me company. She's my unofficial work from home co-worker and honestly? She runs the whole operation.
+        <br/>
+
+
+
         If you want to work together, talk code, or just say hi, I'd love to hear from you. <a href="https://www.latrishagomer.com/contact" target="_blank">Let's talk.</a>
           </p>
 
