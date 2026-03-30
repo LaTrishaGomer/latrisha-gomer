@@ -46,6 +46,8 @@ import React from 'react'
           <div className='w-64 sm:w-80 rounded-3xl mx-auto'>
         <Image src={assets.diva_image} alt='diva' className='w-full rounded-3xl' />
         </div>
+        <br />
+        
         <p>
         <h3 className='text-2xl font-semibold mb-1 text-left'>Get in touch</h3>
         </p>
