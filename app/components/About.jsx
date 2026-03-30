@@ -41,7 +41,7 @@ import React from 'react'
         
         <br />
         <p className='mb-10 font-ovo text-left'>
-        I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name!
+        I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me busy. She's tiny, but she definitly lives up to her name!
         </p>
           <div className='w-64 sm:w-80 rounded-3xl mx-auto'>
         <Image src={assets.diva_image} alt='diva' className='w-full rounded-3xl' />
