@@ -20,15 +20,15 @@ import React from 'react'
         <div className='flex-1 text-center max-w-2xl'>
 
           {/* About Paragraph */}
-        <p> 
+        
         <h3 className='text-2xl font-semibold mb-1 text-left'>I used to write the news. Now I write code.</h3>
-        </p>
+        
         <br />
         <p className='mb-10 font-ovo text-left'> 
-        As a TV news writer and producer, I covered Presidential elections, major news stories, and the rise of the tech industry as it was happening. Some of my favorite stories to write were about technology.
+        As a TV news writer and producer, I had a front row seat to some of the biggest technology stories of the last decade, and I never got tired of covering them.
         </p>
         <p className='mb-10 font-ovo text-left'> 
-        My curiosity about tech turned into a hobby after work. I taught myself WordPress, HTML, CSS and started building websites for fun. Friends and family started to ask me to build their websites, which led to a few freelancing opportunities, and eventually to my decision to leave my 13 year career in TV news.
+        My curiosity about technology didn't end when I went home after work. I started watching YouTube videos about building websites and taught myself WordPress, HTML, and CSS. Friends and family started asking me to build their websites, which led to a few freelancing opportunities. Eventually I made the decision I had been thinking about for a while. I left my 13 year career in TV news.
         </p>
         <p className='mb-10 font-ovo text-left'>
         At the end of 2024, I was selected for the Adobe Digital Academy, a program to help people upskill and launch a career in tech. They covered my bootcamp tuition for General Assembly's Software Engineering program. After graduating, I kept building, kept learning, and landed a role as a software engineer working with C#, .NET, JavaScript, and Angular across both the frontend and the backend.
@@ -36,9 +36,9 @@ import React from 'react'
         <p className='mb-10 font-ovo text-left'>
         This blog is a place for me to share my experience as a career changer. I write about what I'm learning, what I'm building, and the things I wish I knew before I became a software engineer. Not because I have it all figured out, but because the best engineers I know never stop being curious and are always willing to share their experiences.
         </p>
-        <p>
+        
         <h3 className='text-2xl font-semibold mb-1 text-left'>When I'm not coding</h3>
-        </p>
+        
         <br />
         <p className='mb-10 font-ovo text-left'>
         I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name.
@@ -47,10 +47,10 @@ import React from 'react'
         <Image src={assets.diva_image} alt='diva' className='w-full rounded-3xl' />
         </div>
         <br />
+
         
-        <p>
         <h3 className='text-2xl font-semibold mb-1 text-left'>Get in touch</h3>
-        </p>
+        
         <p className='mb-10 font-ovo text-left'>
         If you want to work together, talk code, or just say hi, I'd love to hear from you! <a href="https://www.latrishagomer.com/contact" target="_blank"><strong>Let's talk.</strong></a>
        </p>
