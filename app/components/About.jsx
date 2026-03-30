@@ -9,18 +9,18 @@ import React from 'react'
       <h2 className='text-center text-5xl font-ovo'>Here's how I got here...</h2>
 
       {/* Center content wrapper */}
-      <div className='flex w-full max-w-5xl mx-auto flex-col lg:flex-row items-center gap-20 my-20 justify-center'>
+      <div className='flex w-full max-w-3xl mx-auto flex-col items-center gap-10 my-20'>
 
         {/* Image section */}
-        <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
-          <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
+        <div className='w-64 sm:w-80 rounded-3xl'>
+        <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
         </div>
 
         {/* Text & Skills section */}
-        <div className='flex-1 text-center lg:text-left'>
+        <div className='flex-1 text-center max-w-2xl'>
 
           {/* About Paragraph */}
-          <p className='mb-10 max-w-2xl font-ovo mx-auto lg:mx-0'>
+          <p className='mb-10 font-ovo'>
         I used to write the news. Now I write code.
         <br/> 
         As a TV news writer and producer, I covered Presidential elections, major news stories, and the rise of the tech industry as it was happening. Some of my favorite stories to write were about technology.
