@@ -48,7 +48,7 @@ import React from 'react'
         </div>
         <br />
         <p className='mb-10 font-ovo text-left'>
-        If you want to work together, talk code, or just say hi, I'd love to hear from you. <a href="https://www.latrishagomer.com/contact" target="_blank"><strong>Let's talk.</strong></a>
+        If you want to work together, talk code, or just say hi, I'd love to hear from you! <a href="https://www.latrishagomer.com/contact" target="_blank"><strong>Let's talk.</strong></a>
        </p>
 
           {/* Skills Section */}
