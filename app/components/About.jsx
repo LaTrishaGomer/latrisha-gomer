@@ -20,7 +20,7 @@ import React from 'react'
         <div className='flex-1 text-center max-w-2xl'>
 
           {/* About Paragraph */}
-          <p className='mb-10 font-ovo'>
+          <p className='mb-10 font-ovo text-left'>
         I used to write the news. Now I write code.
         <br/> 
         As a TV news writer and producer, I covered Presidential elections, major news stories, and the rise of the tech industry as it was happening. Some of my favorite stories to write were about technology.
