@@ -13,7 +13,7 @@ const Blog = () => {
         Here are some of my latest projects. I designed and developed these apps and websites using tools like Figma, Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript.
       </p> */}
 
-      <h2 className='text-5xl font-ovo max-w-6xl mx-auto'>Notes From the Stack</h2>
+      <h2 className='text-3xl sm:text-4xl lg:text-5xl font-ovo max-w-6xl mx-auto'>Notes From the Stack</h2>
 
       <div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>
         {workData.map((project, index) => (
