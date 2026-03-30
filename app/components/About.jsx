@@ -37,11 +37,11 @@ import React from 'react'
         This blog is a place for me to share my experience as a career changer. I write about what I'm learning, what I'm building, and the things I wish I knew before I became a software engineer. Not because I have it all figured out, but because the best engineers I know never stop being curious and are always willing to share their experiences.
         </p>
         
-        <h3 className='text-2xl font-semibold mb-1 text-left'>When I'm not coding</h3>
+        <h3 className='text-2xl font-semibold mb-1 text-left'>When I'm not coding...</h3>
         
         <br />
         <p className='mb-10 font-ovo text-left'>
-        I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name.
+        I'm probably planning my next adventure to somewhere I've never been. I love exploring new places, learning about different cultures, and finding the best local restaurants wherever I land. When I'm home, my Chihuahua Diva keeps me company. She's my unofficial work-from-home co-worker and definitly lives up to her name!
         </p>
           <div className='w-64 sm:w-80 rounded-3xl mx-auto'>
         <Image src={assets.diva_image} alt='diva' className='w-full rounded-3xl' />
