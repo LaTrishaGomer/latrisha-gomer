@@ -85,20 +85,17 @@ export const workData = [
         title: 'What Actually Happens When Your Code Runs?',
         description: "You type code, you hit run, but what happens in between? Let's pull back the curtain.",
         bgImage: '/work-5.png',
-        github: '#',
-        live: '#'
+        slug: 'what-actually-happens-when-your-code-runs',
     },
     {
         title: 'The Call Stack Explained: What I Wish I Knew on Day One',
         description: "It's one of the first things senior engineers reference and one of the last things anyone actually explains.",
         bgImage: '#',
-        live: '#'
     },
   
     {
         title: 'Value Types vs Reference Types: Why It Actually Matters',
         description: "It sounds like a trivia question until it breaks your code. Here's what the difference actually means in practice.",
-        bgImage: '/work-7.png',
     },
         {
         title: 'IL and JIT Compilation: The Step Between Your Code and the Machine',
