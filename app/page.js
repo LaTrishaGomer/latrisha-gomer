@@ -14,7 +14,7 @@ export default function Home() {
     <Header />
     {/*<About />*/}
     {/*<Services />*/}
-    <Blog />
+    <Blog limit={4} showButton={true} />
     {/*<Contact />*/}
     <Footer />
     </>

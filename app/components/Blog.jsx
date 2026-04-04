@@ -4,7 +4,7 @@ import React from 'react'
 import { Github, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 
-const Blog = () => {
+const Blog = ({ limit, showButton }) => {
   return (
      <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='mb-2 text-lg font-ovo max-w-2xl mx-auto'>The blog</h4>
@@ -18,7 +18,7 @@ const Blog = () => {
 
       {/*</div><div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>*/}
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
-        {workData.map((project, index) => (
+        {(limit ? workData.slice(0, limit) : workData).map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
             {/* Project Image */}
             {/*<div
@@ -71,11 +71,11 @@ const Blog = () => {
             </div>
           </div>
         ))}
-           <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+           {showButton && (<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
         <a href="/blog" 
         className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
             All Posts <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' /></a>
-    </div>
+    </div>)}
       </div>
     </div>
   )
