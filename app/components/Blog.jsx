@@ -17,7 +17,7 @@ const Blog = () => {
       {/*<h2 className='text-3xl sm:text-4xl lg:text-5xl font-ovo max-w-2xl mx-auto'>Recent Notes</h2>*/}
 
       {/*</div><div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>*/}
-        <div className='flex flex-col gap-16 my-10 max-w-2xl mx-auto'>
+        <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
         {workData.map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
             {/* Project Image */}
@@ -31,7 +31,7 @@ const Blog = () => {
 
               {project.slug ? (
             <Link href={`/blog/${project.slug}`}>
-            <h2 className='text-2xl font-semibold mb-1 hover:underline cursor-pointer'>{project.title}</h2>
+            <h2 className='text-2xl font-semibold mb-1 hover:bg-lightHover transition'>{project.title}</h2>
             </Link>
             ) : (
             <h2 className='text-2xl font-semibold mb-1'>{project.title}</h2>
@@ -41,7 +41,7 @@ const Blog = () => {
 
               <p className='text-gray-700 text-base mb-4'>{project.description}</p>
 
-              {/* Styled Buttons with Icons */}
+              {/* Styled Buttons with Icons
               <div className='flex flex-wrap gap-4'>
                 <a
                   href={project.github}
@@ -49,8 +49,8 @@ const Blog = () => {
                   rel='noopener noreferrer'
                   className='inline-flex gap-2 text-sm font-ovo hover:bg-lightHover transition'
                   //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
-                >
-                  {/*<Github size={16} /> */}
+                
+                  {/*<Github size={16} /> *
                   Author Name
                 </a>
 
@@ -63,10 +63,10 @@ const Blog = () => {
 
                 //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
                 >
-                  {/*<ExternalLink size={16} /> */}
+                  *<ExternalLink size={16} /> *
                   Read More
                 </a>
-              </div>
+              </div> */}
 
             </div>
           </div>
