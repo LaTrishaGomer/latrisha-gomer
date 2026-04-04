@@ -14,7 +14,7 @@ export default function PostClient({ slug }) {
   return (
     <main>
       <Navbar />
-      <div className='max-w-2xl mx-auto px-6 py-20 font-ovo'>
+      <div className='prose max-w-2xl mx-auto px-6 py-20 font-ovo'>
         <a href='/blog' className='text-sm mb-8 block'>← Back to Notes</a>
         <Post />
       </div>
