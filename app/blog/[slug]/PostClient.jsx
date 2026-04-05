@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 import { MDXRemote } from 'next-mdx-remote'
+import Footer from '../../components/Footer'
 
 export default function PostClient({ slug }) {
   const [mdxSource, setMdxSource] = useState(null)
@@ -70,6 +71,7 @@ export default function PostClient({ slug }) {
         )}
 
       </div>
+      <Footer />
     </main>
   )
 }
