@@ -1,3 +1,4 @@
+'use client'
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
@@ -5,7 +6,7 @@ import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div className='w-full px-[12%] py-20'>
+    <div className='w-full px-[12%] py-20 pt-44'>
       <div className='max-w-2xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-10'>
         
         {/* Image */}

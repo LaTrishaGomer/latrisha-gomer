@@ -1,11 +1,13 @@
 'use client'
-import { assets, workData } from '@/assets/assets'
+import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
 import { motion } from "motion/react"
 
-const Blog = ({ limit, showButton }) => {
+const Blog = ({ limit, showButton, posts = [] }) => {
+  const displayedPosts = limit ? posts.slice(0, limit) : posts
+
   return (
     <motion.div 
       id='blog' 
@@ -17,7 +19,7 @@ const Blog = ({ limit, showButton }) => {
     >
       <h3 className='mb-2 text-2xl font-ovo max-w-2xl mx-auto'>The Blog</h3>
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
-        {(limit ? workData.slice(0, limit) : workData).map((project, index) => (
+        {displayedPosts.map((project, index) => (
           <motion.div 
             key={index} 
             className='flex flex-col gap-4'
@@ -28,12 +30,12 @@ const Blog = ({ limit, showButton }) => {
           >
             <div className='px-2'>
               {project.slug ? (
-            <Link href={`/blog/${project.slug}`}>
-            <h2 className='text-2xl font-semibold mb-1 hover:bg-lightHover transition'>{project.title}</h2>
-            </Link>
-            ) : (
-            <h2 className='text-2xl font-semibold mb-1'>{project.title}</h2>
-            )}
+                <Link href={`/blog/${project.slug}`}>
+                  <h2 className='text-2xl font-semibold mb-1 hover:bg-lightHover transition'>{project.title}</h2>
+                </Link>
+              ) : (
+                <h2 className='text-2xl font-semibold mb-1'>{project.title}</h2>
+              )}
               <p className='text-gray-700 text-base mb-4'>{project.description}</p>
             </div>
           </motion.div>

@@ -90,8 +90,9 @@ export const workData = [
     {
         title: 'What Actually Happens When Your Code Runs?',
         description: "You type code, you hit run, but what happens in between? Let's pull back the curtain.",
-        bgImage: '/work-5.png',
         slug: 'what-actually-happens-when-your-code-runs',
+        category: 'Programming',
+        tags: ['C#', '.NET', 'beginners']
     },
     {
         title: 'The Call Stack Explained: What I Wish I Knew on Day One',
