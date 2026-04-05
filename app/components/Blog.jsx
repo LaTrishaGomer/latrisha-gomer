@@ -1,11 +1,20 @@
+'use client'
 import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import { motion } from "motion/react"
 
 const Blog = ({ limit, showButton }) => {
   return (
-     <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
+    <motion.div 
+      id='blog' 
+      className='w-full px-[12%] py-10 scroll-mt-20'
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+    >
       <h3 className='mb-2 text-2xl font-ovo max-w-2xl mx-auto'>The Blog</h3>
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
         {(limit ? workData.slice(0, limit) : workData).map((project, index) => (
@@ -28,7 +37,7 @@ const Blog = ({ limit, showButton }) => {
             All Posts <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' /></a>
     </div>)}
       </div>
-    </div>
+    </motion.div>
   )
 }
 

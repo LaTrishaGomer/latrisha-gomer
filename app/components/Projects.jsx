@@ -55,7 +55,7 @@ const Projects = () => {
         </div>
         
         <div className='mt-20'>
-  <a href="/blog/category/projects" 
+  <a href="/" 
   className='px-10 py-3 border border-white rounded-full bg-black text-white inline-flex items-center gap-2'>
     All Projects <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' />
   </a>

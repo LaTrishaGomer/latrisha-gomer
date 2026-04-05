@@ -27,7 +27,7 @@ export default function PostClient({ slug }) {
       <div className='max-w-2xl mx-auto px-6 pt-32 pb-20'>
         
         {/* Back Link */}
-        <a href='/blog' className='text-sm mb-8 block'>← Back to Notes</a>
+        <a href='/blog' className='text-sm mb-8 block'>← Back to Posts</a>
 
         {/* Title */}
         <h1 className='text-2xl sm:text-4xl font-bold font-ovo mb-6'>{frontmatter.title}</h1>
