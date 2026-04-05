@@ -5,7 +5,7 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from "motion/react"
 
-const Blog = ({ limit, showButton, posts = [] }) => {
+const Blog = ({ limit, showButton, posts = [], title = "The Blog" }) => {
   const displayedPosts = limit ? posts.slice(0, limit) : posts
 
   return (
@@ -17,7 +17,7 @@ const Blog = ({ limit, showButton, posts = [] }) => {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <h3 className='mb-2 text-2xl font-ovo max-w-2xl mx-auto'>The Blog</h3>
+      <h3 className='mb-2 text-2xl font-ovo max-w-2xl mx-auto'>{title}</h3>
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
         {displayedPosts.map((project, index) => (
           <motion.div 

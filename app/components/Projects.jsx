@@ -4,34 +4,7 @@ import Link from 'next/link'
 import { assets } from '@/assets/assets'
 import { motion } from "motion/react"
 
-const projectsData = [
-  {
-    title: 'Project One',
-    description: 'A short description of what this project does and what you built it with.',
-    image: '/images/blog-post-image.png',
-    slug: '#'
-  },
-  {
-    title: 'Project Two',
-    description: 'A short description of what this project does and what you built it with.',
-    image: '/images/blog-post-image.png',
-    slug: '#'
-  },
-  {
-    title: 'Project Three',
-    description: 'A short description of what this project does and what you built it with.',
-    image: '/images/blog-post-image.png',
-    slug: '#'
-  },
-  {
-    title: 'Project Four',
-    description: 'A short description of what this project does and what you built it with.',
-    image: '/images/blog-post-image.png',
-    slug: '#'
-  }
-]
-
-const Projects = () => {
+const Projects = ({ projects = [] }) => {
   return (
     <div className='w-full px-[12%] py-10'>
       <div className='max-w-2xl mx-auto'>
@@ -47,7 +20,7 @@ const Projects = () => {
         </motion.h3>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6'>
-          {projectsData.map((project, index) => (
+          {projects.map((project, index) => (
             <motion.div 
               key={index} 
               className='flex flex-col gap-3'
@@ -56,16 +29,18 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
               viewport={{ once: true }}
             >
-              <div className='w-full aspect-video bg-gray-100 rounded-xl overflow-hidden'>
-                <Image 
-                  src={project.image} 
-                  alt={project.title} 
-                  width={600} 
-                  height={340} 
-                  className='w-full h-full object-cover'
-                />
-              </div>
-              <h3 className='font-ovo font-semibold text-lg'>{project.title}</h3>
+              <Link href={`/blog/${project.slug}`}>
+                <div className='w-full aspect-video bg-gray-100 rounded-xl overflow-hidden'>
+                  <Image 
+                    src={project.coverImage || '/images/blog-post-image.png'} 
+                    alt={project.title} 
+                    width={600} 
+                    height={340} 
+                    className='w-full h-full object-cover hover:scale-105 transition duration-300'
+                  />
+                </div>
+                <h3 className='font-ovo font-semibold text-lg mt-3'>{project.title}</h3>
+              </Link>
               <p className='font-ovo text-gray-600 text-sm'>{project.description}</p>
             </motion.div>
           ))}
@@ -78,7 +53,7 @@ const Projects = () => {
           transition={{ duration: 0.5, delay: 0.5 }}
           viewport={{ once: true }}
         >
-          <a href="/" 
+          <a href="/projects" 
           className='px-10 py-3 border border-white rounded-full bg-black text-white inline-flex items-center gap-2'>
             All Projects <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' />
           </a>

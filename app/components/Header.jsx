@@ -35,7 +35,7 @@ const Header = () => {
             transition={{ duration: 0.5, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            Hi, I'm LaTrisha! <Image src={assets.hand_icon} alt='' className='w-6'/>
+            Hi, I'm La'Trisha! <Image src={assets.hand_icon} alt='' className='w-6'/>
           </motion.h3>
 
           <motion.p 
