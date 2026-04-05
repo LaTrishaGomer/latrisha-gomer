@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 import { MDXRemote } from 'next-mdx-remote'
-import { serialize } from 'next-mdx-remote/serialize'
 
 export default function PostClient({ slug }) {
   const [mdxSource, setMdxSource] = useState(null)
@@ -52,6 +51,23 @@ export default function PostClient({ slug }) {
         <div className='prose font-ovo'>
           <MDXRemote {...mdxSource} />
         </div>
+
+        {/* Tags */}
+        {frontmatter.tags && frontmatter.tags.length > 0 && (
+          <div className='mt-12 pt-8 border-t border-gray-200'>
+            <p className='text-sm text-gray-500 font-ovo mb-3'>Tagged in</p>
+            <div className='flex flex-wrap gap-2'>
+              {frontmatter.tags.map((tag, index) => (
+                <span 
+                  key={index}
+                  className='px-4 py-2 rounded-full text-sm font-ovo border border-gray-300 text-gray-600'
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
       </div>
     </main>
