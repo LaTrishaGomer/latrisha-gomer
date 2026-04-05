@@ -17,7 +17,7 @@ const Header = () => {
         {/* Image */}
         <div className='w-48 flex-shrink-0'>
           <Image 
-            src={assets.profile_img} 
+            src={assets.profile_img_pink} 
             alt='Diva' 
             className='w-full rounded-2xl object-cover' 
             width={200} 
