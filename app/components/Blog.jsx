@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Blog = ({ limit, showButton }) => {
   return (
      <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
-      <h4 className='mb-2 text-lg font-ovo max-w-2xl mx-auto'>The blog</h4>
+      <h3 className='mb-2 text-2xl font-ovo max-w-2xl mx-auto'>The Blog</h3>
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
         {(limit ? workData.slice(0, limit) : workData).map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
