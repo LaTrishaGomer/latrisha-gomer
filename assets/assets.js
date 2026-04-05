@@ -38,6 +38,8 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import down_icon from './down-icon.png';
 import diva_image from './diva_image.png';
 import blog_post_image from './blog-post-image.png';
+import profile_img_pink from './profile-img-pink.png';
+import profile_img_pink_dark from './profile-img-pink-dark.png';
 
 export const assets = {
     user_image,
@@ -80,6 +82,8 @@ export const assets = {
     down_icon,
     diva_image,
     blog_post_image,
+    profile_img_pink,
+    profile_img_pink_dark,
 };
 
 export const workData = [

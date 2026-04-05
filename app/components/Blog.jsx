@@ -1,34 +1,16 @@
 import { assets, workData } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
-import { Github, ExternalLink } from 'lucide-react'
 import Link from 'next/link'
 
 const Blog = ({ limit, showButton }) => {
   return (
      <div id='blog' className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='mb-2 text-lg font-ovo max-w-2xl mx-auto'>The blog</h4>
-      {/*<h2 className='text-center text-5xl font-ovo'>My latest work</h2>
-
-      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-        Here are some of my latest projects. I designed and developed these apps and websites using tools like Figma, Node.js, Express, MongoDB, EJS, HTML, CSS, and JavaScript.
-      </p> */}
-
-      {/*<h2 className='text-3xl sm:text-4xl lg:text-5xl font-ovo max-w-2xl mx-auto'>Recent Notes</h2>*/}
-
-      {/*</div><div className='flex flex-col gap-16 my-10 max-w-6xl mx-auto'>*/}
         <div className='flex flex-col gap-12 my-10 max-w-2xl mx-auto'>
         {(limit ? workData.slice(0, limit) : workData).map((project, index) => (
           <div key={index} className='flex flex-col gap-4'>
-            {/* Project Image */}
-            {/*<div
-              className='w-full aspect-[1278/717] bg-no-repeat bg-cover bg-center rounded-lg'
-              style={{ backgroundImage: `url(${project.bgImage})` }}
-            ></div> */}
-
-            {/* Project Info */}
             <div className='px-2'>
-
               {project.slug ? (
             <Link href={`/blog/${project.slug}`}>
             <h2 className='text-2xl font-semibold mb-1 hover:bg-lightHover transition'>{project.title}</h2>
@@ -36,42 +18,11 @@ const Blog = ({ limit, showButton }) => {
             ) : (
             <h2 className='text-2xl font-semibold mb-1'>{project.title}</h2>
             )}
-
-
-
               <p className='text-gray-700 text-base mb-4'>{project.description}</p>
-
-              {/* Styled Buttons with Icons
-              <div className='flex flex-wrap gap-4'>
-                <a
-                  href={project.github}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='inline-flex gap-2 text-sm font-ovo hover:bg-lightHover transition'
-                  //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
-                
-                  {/*<Github size={16} /> *
-                  Author Name
-                </a>
-
-                <a
-                  href={project.live}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='inline-flex gap-2 text-sm font-ovo hover:bg-gray-100 transition'
-                  
-
-                //className='inline-flex items-center gap-2 text-sm font-ovo text-gray-800 border border-gray-300 rounded-full px-4 py-2 hover:bg-gray-100 transition'
-                >
-                  *<ExternalLink size={16} /> *
-                  Read More
-                </a>
-              </div> */}
-
             </div>
           </div>
         ))}
-           {showButton && (<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+           {showButton && (<div className='flex flex-col sm:flex-row items-start gap-4 mt-4'>
         <a href="/blog" 
         className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
             All Posts <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' /></a>

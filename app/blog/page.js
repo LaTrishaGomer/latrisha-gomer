@@ -6,7 +6,7 @@ export default function BlogPage() {
   return (
     <main>
      <Navbar />
-     <div className="pt-24"> 
+     <div className="pt-44"> 
       <Blog />
       </div>
       <Footer />

@@ -1,39 +1,34 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
-import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-      <div>
-        <Image src={assets.profile_img} alt="" className='rounded-full w-32' />
-      </div>
-      <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>
-            Hi, I'm La'Trisha!<Image src={assets.hand_icon} alt='' className='w-6'/></h3>
-    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>I Build Things with Code. Then I Write About It.</h1>
-    <p className='mx-w-2xl mx-auto font-ovo'>
-    I'm a Kansas City-based software engineer, originally from the San Francisco Bay Area. This is where I share what I learn. The wins, the bugs, and everything in between.
-    </p>
-
-
-    {/*<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <a href="#contact"
-        className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'
-        >contact me <Image src={assets.right_arrow_white} alt="" className='w-4' /></a>
+    <div className='w-full px-[12%] py-20'>
+      <div className='max-w-2xl mx-auto flex flex-col lg:flex-row-reverse items-center gap-10'>
         
-        <a href="#work" 
-        className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>
-            see my work <Image src={assets.down_icon} alt="" className='w-4' /></a>
-    </div>
+        {/* Image - on top for mobile, right for desktop */}
+        <div className='w-48 flex-shrink-0'>
+          <Image 
+            src={assets.profile_img_pink} 
+            alt='Diva' 
+            className='w-full rounded-2xl object-cover' 
+            width={200} 
+            height={250}
+          />
+        </div>
 
-    /*<div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <a href="#work" 
-        className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2'>
-            start here </a>
-    </div>*/}
+        {/* Text */}
+        <div className='flex-1 text-left'>
+          <h1 className='flex items-center gap-2 text-3xl lg:text-4xl mb-3 font-ovo'>
+            Hi, I'm La'Trisha! <Image src={assets.hand_icon} alt='' className='w-6'/>
+          </h1>
+          <p className='font-ovo text-gray-600'>
+            A software engineer based in Kansas City. Writing code, exploring new ideas, and building projects. Sharing what I learn as I go.
+          </p>
+        </div>
 
-
+      </div>
     </div>
   )
 }
