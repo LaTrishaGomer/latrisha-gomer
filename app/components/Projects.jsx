@@ -1,6 +1,8 @@
+'use client'
 import Image from 'next/image'
 import Link from 'next/link'
 import { assets } from '@/assets/assets'
+import { motion } from "motion/react"
 
 const projectsData = [
   {
@@ -21,7 +23,7 @@ const projectsData = [
     image: '/images/blog-post-image.png',
     slug: '#'
   },
-    {
+  {
     title: 'Project Four',
     description: 'A short description of what this project does and what you built it with.',
     image: '/images/blog-post-image.png',
@@ -34,11 +36,26 @@ const Projects = () => {
     <div className='w-full px-[12%] py-10'>
       <div className='max-w-2xl mx-auto'>
         
-        <h3 className='mb-2 text-2xl font-ovo'>Things I've Built</h3>
+        <motion.h3 
+          className='mb-2 text-2xl font-ovo'
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          viewport={{ once: true }}
+        >
+          Things I've Built
+        </motion.h3>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6'>
           {projectsData.map((project, index) => (
-            <div key={index} className='flex flex-col gap-3'>
+            <motion.div 
+              key={index} 
+              className='flex flex-col gap-3'
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
+              viewport={{ once: true }}
+            >
               <div className='w-full aspect-video bg-gray-100 rounded-xl overflow-hidden'>
                 <Image 
                   src={project.image} 
@@ -50,16 +67,22 @@ const Projects = () => {
               </div>
               <h3 className='font-ovo font-semibold text-lg'>{project.title}</h3>
               <p className='font-ovo text-gray-600 text-sm'>{project.description}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
         
-        <div className='mt-20'>
-  <a href="/" 
-  className='px-10 py-3 border border-white rounded-full bg-black text-white inline-flex items-center gap-2'>
-    All Projects <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' />
-  </a>
-</div>
+        <motion.div 
+          className='mt-20'
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          viewport={{ once: true }}
+        >
+          <a href="/" 
+          className='px-10 py-3 border border-white rounded-full bg-black text-white inline-flex items-center gap-2'>
+            All Projects <Image src={assets.right_arrow_bold_dark} alt="" className='w-4' />
+          </a>
+        </motion.div>
 
       </div>
     </div>
