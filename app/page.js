@@ -12,7 +12,7 @@ export default function Home() {
     <div className="pt-24"> 
     <Header />
     </div>
-    <Blog limit={4} showButton={true} />
+    <Blog limit={3} showButton={true} />
     <Projects />
     <Footer />
     </>
