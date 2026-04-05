@@ -32,7 +32,7 @@ const Navbar = () => {
        <Image src={assets.header_bg_color} alt='background' className='w-full' /> 
     </div>
 
-      <nav className={`w-full fixed px-5 lg:px-8 x1:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
+      <nav className={`w-full fixed px-[12%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
         <a href="/">
             <Image src={assets.logo}  alt="" className='w-28 cursor-pointer mr-14' />
         </a>
@@ -42,8 +42,6 @@ const Navbar = () => {
             <li><a className='font-Ovo' href="/">Home</a></li>
             <li><a className='font-Ovo' href="/blog">Blog</a></li>
              <li><a className='font-Ovo' href="/about">About</a></li>
-           {/*<li><a className='font-Ovo' href="#services">Services</a></li>*/}
-            {/*<li><a className='font-Ovo' href="/contact">Let's Chat</a></li>*/}
         </ul>
 
         <div className='flex items-center gap-4'>
@@ -69,7 +67,6 @@ const Navbar = () => {
 
             <li><a className='font-Ovo' onClick={closeMenu} href="/">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="/about">About</a></li>
-            {/*<li><a className='font-Ovo' onClick={closeMenu} href="#services">Services</a></li>*/}
             <li><a className='font-Ovo' onClick={closeMenu} href="/blog">Blog</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="/contact">Let's Chat</a></li>
         </ul>
