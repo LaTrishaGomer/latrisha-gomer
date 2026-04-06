@@ -40,8 +40,8 @@ const Navbar = () => {
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8
         rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50" } `}>
             <li><a className='font-Ovo' href="/">Home</a></li>
-            <li><a className='font-Ovo' href="/blog">Blog</a></li>
-            <li><a className='font-Ovo' href="/projects">Projects</a></li>
+            {/*<li><a className='font-Ovo' href="/blog">Blog</a></li>
+            <li><a className='font-Ovo' href="/projects">Projects</a></li>*/}
              <li><a className='font-Ovo' href="/about">About</a></li>
         </ul>
 
@@ -68,8 +68,8 @@ const Navbar = () => {
 
             <li><a className='font-Ovo' onClick={closeMenu} href="/">Home</a></li>
             <li><a className='font-Ovo' onClick={closeMenu} href="/about">About</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="/blog">Blog</a></li>
-            <li><a className='font-Ovo' onClick={closeMenu} href="/projects">Projects</a></li>
+            {/*<li><a className='font-Ovo' onClick={closeMenu} href="/blog">Blog</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href="/projects">Projects</a></li>*/}
             <li><a className='font-Ovo' onClick={closeMenu} href="/contact">Let's Chat</a></li>
         </ul>
 

@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <Navbar />
       <Header />
-      <Blog limit={3} showButton={true} posts={posts} />
-      <Projects projects={projects} />
+      {/*<Blog limit={3} showButton={true} posts={posts} />
+      <Projects projects={projects} />*/}
       <Footer />
     </>
   )
